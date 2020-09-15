@@ -1,0 +1,42 @@
+rickifox@rickifox-HP-ProBook-4730s:~$ pwd
+/home/rickifox
+rickifox@rickifox-HP-ProBook-4730s:~$ cd..
+cd.. : commande introuvable
+rickifox@rickifox-HP-ProBook-4730s:~$ cd ..
+rickifox@rickifox-HP-ProBook-4730s:/home$ pwd
+/home
+rickifox@rickifox-HP-ProBook-4730s:/home$ ls
+rickifox
+rickifox@rickifox-HP-ProBook-4730s:/home$ cd ..
+rickifox@rickifox-HP-ProBook-4730s:/$ pwd
+/
+rickifox@rickifox-HP-ProBook-4730s:/$ ls
+bin    dev   lib    libx32      mnt   root  snap      sys  var
+boot   etc   lib32  lost+found  opt   run   srv       tmp
+cdrom  home  lib64  media       proc  sbin  swapfile  usr
+rickifox@rickifox-HP-ProBook-4730s:/$ cd home
+rickifox@rickifox-HP-ProBook-4730s:/home$ ls
+rickifox
+rickifox@rickifox-HP-ProBook-4730s:/home$ cd rickifox
+rickifox@rickifox-HP-ProBook-4730s:~$ pwd
+/home/rickifox
+rickifox@rickifox-HP-ProBook-4730s:~$ cd /home/rickifox
+rickifox@rickifox-HP-ProBook-4730s:~$ pwd
+/home/rickifox
+rickifox@rickifox-HP-ProBook-4730s:~$ ls
+Bureau  Documents  Images  Modèles  Musique  Public  snap  Téléchargements  Vidéos
+rickifox@rickifox-HP-ProBook-4730s:~$ ls .
+Bureau  Documents  Images  Modèles  Musique  Public  snap  Téléchargements  Vidéos
+rickifox@rickifox-HP-ProBook-4730s:~$ ls -a
+.              .cache      .irb-history  .pingus   .sudo_as_admin_successful
+..             .config     .local        .pki      Téléchargements
+.bash_history  Documents   .mkshrc       .profile  .thunderbird
+.bash_logout   .gem        Modèles       Public    Vidéos
+.bash_profile  .gitconfig  .mozilla      .rvm      .vscode
+.bashrc        .gnupg      Musique       snap      .zlogin
+Bureau         Images      .netrc        .ssh      .zshrc
+rickifox@rickifox-HP-ProBook-4730s:~$ ls -l bin
+ls: impossible d'accéder à 'bin': Aucun fichier ou dossier de ce type
+rickifox@rickifox-HP-ProBook-4730s:~$ ls -l .gitconfig
+-rw-rw-r-- 1 rickifox rickifox 57 mai   11 22:48 .gitconfig
+rickifox@rickifox-HP-ProBook-4730s:~$ 
